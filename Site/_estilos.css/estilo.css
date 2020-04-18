@@ -1,0 +1,196 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'fonte-logo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("../_imagens/foto4.jpg");
+    color: rgba(0,0,0,1);
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+header#cabecalho {
+    text-align: center;
+    color: green;
+    font-family: fonte-logo, sans-serif;
+    border-bottom: 1px solid #606060;
+    margin: 5px;
+    padding: 0px;
+
+}
+
+div#interface {
+    background-color: #ffffff;
+    width: 1100px;
+    margin: -20px auto 0px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 1px;
+
+}
+
+section#corpo  {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+
+
+}
+
+section#corpo h2 {
+    color: white;
+    background-color: #6e716e;
+    margin: 8px;
+}
+
+aside#lateral {
+    display: block;
+    width: 550px;
+    float: right;
+    padding: 10px;
+
+
+}
+
+aside#lateral h2 {
+    color: white;
+    background-color: #6e716e;
+    margin: 0px;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px #606060 solid;
+    text-align: center;
+}
+
+footer#rodape h2 {
+    font-size: 15pt;
+    color: black;
+    margin: 10px;
+
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+/*Formatação com Imagens*/
+
+figure#foto {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure#foto img {
+    width: 450px;
+    height: 350px;
+    padding: 12px;
+    margin-left: -10px;
+
+}
+
+figure#foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 1px black;
+}
+
+figure#foto-legenda img {
+    width: 400px;
+    height: 350px;
+    padding: 12px;
+    margin-left: -10px;
+}
+
+/*Tabela*/
+
+table#tabela {
+    border: 1px solid #cecece;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabela td {
+    border: 2px solid #cecece;
+    padding: 7px;
+    text-align: center;
+}
+
+table#tabela #c8 {
+    color: white;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+
+}
+
+table#tabela #linha1 {
+    background-color: #3fd43c;
+}
+
+table#tabela #A {
+    color: yellow;
+}
+
+table#tabela #B {
+    color: white;
+}
+
+table#tabela #C {
+     color: blue;
+ }
+
+table#tabela #e {
+    color: white;
+}
+
+table#tabela #f {
+    color: lightyellow;
+}
+
+table#tabela #g {
+    color: black;
+}
+
+table#tabela #l1 {
+    background-color: #8ff88a;
+}
+
+table#tabela #c2 {
+    background-color: #f88ad3;
+}
+
+table#tabela #c3 {
+    background-color: #8ff88a;
+}
+
+table#tabela #c4 {
+    background-color: #f88ad3;
+}
+
+table#tabela #c5 {
+    background-color: #8ff88a;
+}
+
+table#tabela #c6 {
+    color: black;
+    background-color: green;
+    text-align: center;
+}
+
+table#tabela #c7 {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+
